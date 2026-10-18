@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Car Studio | Fotografia samochodowa</title>
+    <meta name="description" content="Apex Car Studio - zdjęcia samochodów na sprzedaż, sesje motoryzacyjne i pomoc w przygotowaniu ogłoszeń.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">APEX <span>CAR STUDIO</span></div>
+        <nav>
+            <a href="#oferta">Oferta</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#onas">O nas</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="small-title">FOTOGRAFIA SAMOCHODOWA</p>
+                <h1>Twoje auto.<br><span>Nasze kadry.</span></h1>
+                <p class="hero-text">Pomagamy pokazać samochód z najlepszej strony. Robimy zdjęcia do ogłoszeń i sesje dla osób, które po prostu lubią motoryzację.</p>
+                <a class="button" href="#kontakt">Umów sesję</a>
+            </div>
+        </section>
+
+        <section class="section" id="oferta">
+            <p class="small-title">CO ROBIMY</p>
+            <h2>Nasza oferta</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-number">01</div>
+                    <h3>Zdjęcia do ogłoszeń</h3>
+                    <p>Przygotowujemy zdjęcia, które dobrze prezentują samochód na portalach ogłoszeniowych.</p>
+                    <p class="price">od 150 zł</p>
+                </article>
+                <article class="card">
+                    <div class="card-number">02</div>
+                    <h3>Sesja motoryzacyjna</h3>
+                    <p>Zdjęcia samochodu w ciekawym miejscu, z naciskiem na wygląd i detale.</p>
+                    <p class="price">od 250 zł</p>
+                </article>
+                <article class="card">
+                    <div class="card-number">03</div>
+                    <h3>Pomoc z ogłoszeniem</h3>
+                    <p>Pomagamy przygotować krótki i czytelny opis auta do publikacji w internecie.</p>
+                    <p class="price">od 50 zł</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery-section" id="galeria">
+            <div class="section">
+                <p class="small-title">NASZE PRACE</p>
+                <h2>Galeria</h2>
+                <p class="intro">Kilka przykładów zdjęć w klimacie, który lubimy.</p>
+                <div class="gallery">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80" alt="Samochód sfotografowany z przodu">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" alt="Sportowy samochód na drodze">
+                    <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1000&q=80" alt="Samochód widziany z boku">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="onas">
+            <div>
+                <p class="small-title">KIM JESTEŚMY</p>
+                <h2>Motoryzacja w dobrym kadrze</h2>
+            </div>
+            <p>Apex Car Studio to przykładowa firma zajmująca się fotografią samochodową. Stawiamy na dobry kadr, naturalne kolory i zdjęcia, które pokazują najważniejsze cechy auta. Do każdego samochodu podchodzimy indywidualnie.</p>
+        </section>
+
+        <section class="contact-section" id="kontakt">
+            <div class="section contact-content">
+                <div>
+                    <p class="small-title">NAPISZ DO NAS</p>
+                    <h2>Masz auto do sfotografowania?</h2>
+                    <p>Opowiedz nam, czego potrzebujesz. Ustalimy termin i miejsce sesji.</p>
+                    <p class="contact-detail">E-mail: kontakt@apexcarstudio.pl</p>
+                    <p class="contact-detail">Instagram: @apex_car_studio</p>
+                </div>
+                <form action="mailto:kontakt@apexcarstudio.pl" method="post" enctype="text/plain">
+                    <label for="name">Imię</label>
+                    <input type="text" id="name" name="Imię" placeholder="Twoje imię" required>
+
+                    <label for="email">Adres e-mail</label>
+                    <input type="email" id="email" name="E-mail" placeholder="twoj@email.pl" required>
+
+                    <label for="message">Wiadomość</label>
+                    <textarea id="message" name="Wiadomość" rows="4" placeholder="Napisz, jakiej sesji potrzebujesz" required></textarea>
+
+                    <button class="button" type="submit">Wyślij wiadomość</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Apex Car Studio</p>
+        <p>Projekt strony internetowej wykonany w HTML i CSS.</p>
+        <p> © Bartosz Żach</p>
+    </footer>
+</body>
+</html>
